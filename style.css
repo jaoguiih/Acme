@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-color: #d2d2e9;
+    color: #191970;
+}
+
+header{
+    width: 100%; /* Largura */
+    height: 11vh; /* Altura */
+    text-shadow: 0 1px aqua;
+    font-size: 1.2rem;
+
+    /* Comportamento da Caixa */
+    display: flex;
+    justify-content: center; /* Alinhamento Horizontal */
+    align-items: center; /* Alinhamento Vertical */
+}
+
+nav {
+    background-color: rgb(30, 167, 221);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top: 1px solid rgba(9, 9, 112, 0.712);
+    border-bottom: 1px solid rgba(9, 9, 112, 0.712);
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 2px rgb(5, 5, 90);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #d2d2e9;
+    
+}
+
+main{
+    width: 100%;
+}
+
+nav a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 1px #2b0bb9;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: rgb(12, 23, 122);
+    transition: .5s;
+}
+
+article h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+article  p{
+    padding-left: 18px;
+}
+
+ul{
+    padding-top: 4px;
+    padding-left: 20%;
+    font-style: italic;
+    list-style: circle;
+}
+
+ul li.feature {
+    font-weight: 600;
+}
+
+footer{
+    border-top: 2px solid rgb(178, 163, 231);
+    margin-top: 32px;
+    text-align: center;
+    padding-top: 8px;
+    font-style: italic;
+}
